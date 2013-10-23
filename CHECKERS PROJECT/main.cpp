@@ -12,7 +12,8 @@ int main(int argc, const char * argv[])
 {
 
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Game *game = NULL;
+    game.setUpGame();
     return 0;
 }
 
